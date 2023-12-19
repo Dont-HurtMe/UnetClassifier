@@ -19,16 +19,13 @@ evaluate (test-set)
 * recall:_______0.8815 
 * auc:__________0.9120 
 
-  confusion matrix
-  |       || benign | malignant | normal |
+  
+  | label name|| benign | malignant | normal |
   | --- | --- || --- | --- |
   | benign  || 237  | 3 | 2 |
   | malignant  || 4 | 211  | 27  |
   | normal  || 3 Cell  | 47  | 192  |
 
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+
 
