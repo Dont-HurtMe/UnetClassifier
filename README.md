@@ -4,7 +4,11 @@
 concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} -> fully-connected layers{in=2^16,out=3} -> softmax
 
 **log validate accuracy**
+
+
 <img width="497" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/9a889e62-0d52-4dca-a500-6768e814ee23">
+
+
 
 **evaluate (test-set)**
 * entropyloss:__0.7203  
