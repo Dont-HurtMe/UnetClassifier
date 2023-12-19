@@ -3,12 +3,7 @@
 
 concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} -> fully-connected layers{in=2^16,out=3} -> softmax
 
-**detail training & evaluate in create-unet-classifier.ipnyb
-
-**train entropy loss vs val entropy loss**
-<img width="497" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/6093d204-de21-43bf-aa82-1ae644484374">
-
-**validate accuracy**
+**log validate accuracy**
 <img width="497" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/9a889e62-0d52-4dca-a500-6768e814ee23">
 
 **evaluate (test-set)**
@@ -26,6 +21,7 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 | malignant  | 4 | 211  | 27  |
 | normal  | 3 Cell  | 47  | 192  |
 
+**detail training & evaluate in create-unet-classifier.ipnyb
 
 
 
