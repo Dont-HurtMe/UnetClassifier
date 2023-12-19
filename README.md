@@ -12,12 +12,12 @@ validate accuracy
 <img width="498" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/9a889e62-0d52-4dca-a500-6768e814ee23">
 
 evaluate (test-set)
-  * entropyloss:__0.7203  
-  * accuracy:_____0.8815  
-  * f1-score:_____0.8812 
-  * precision:____0.8828 
-  * recall:_______0.8815 
-  * auc:__________0.9120 
+* entropyloss:__0.7203  
+* accuracy:_____0.8815  
+* f1-score:_____0.8812 
+* precision:____0.8828 
+* recall:_______0.8815 
+* auc:__________0.9120 
 
   confusion matrix
   |       || benign | malignant | normal |
