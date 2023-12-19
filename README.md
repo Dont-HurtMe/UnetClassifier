@@ -15,7 +15,7 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 * accuracy:_____0.8815  
 * f1-score:_____0.8812 
 * precision:____0.8828 
-* recall:_______0.8815 
+* recall:________0.8815 
 * auc:__________0.9120 
 
 **confusion matrix**
