@@ -20,11 +20,11 @@ evaluate (test-set)
 * auc:__________0.9120 
 
   
-  | label name|| benign | malignant | normal |
-  | --- | --- || --- | --- |
-  | benign  || 237  | 3 | 2 |
-  | malignant  || 4 | 211  | 27  |
-  | normal  || 3 Cell  | 47  | 192  |
+  | label name| benign | malignant | normal |
+  | --- | --- | --- | --- |
+  | benign  | 237  | 3 | 2 |
+  | malignant  | 4 | 211  | 27  |
+  | normal  | 3 Cell  | 47  | 192  |
 
 
 
