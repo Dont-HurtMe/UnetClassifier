@@ -23,7 +23,7 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 | --- | --- | --- | --- |
 | benign  | 237  | 3 | 2 |
 | malignant  | 4 | 211  | 27  |
-| normal  | 3 Cell  | 47  | 192  |
+| normal  | 3 | 47  | 192  |
 
 **detail training & evaluate in create-unet-classifier.ipnyb
 
