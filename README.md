@@ -37,10 +37,18 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 * detail training & evaluate in create-unet-classifier.ipnyb
 * output of UnetClassifier in example-output-model.ipynb
 
-**OOB work flow**
-1.DataLoad.py --> Generate data from dataframe (pattern columns in dataframe : [image_path,mask,original_label,encoder_label]) transform and torch.dataLoad sample use in In[3] from 2create-unet-classifier.ipynb
-2.train.py --> fit & save model (func. from __tool__.py) return model , loss_train , loss_val , loss_acc 
-3.
+
+
+**detail OOB**
+________________________________________
+
+1.DataLoad.py --> generate data from dataframe (pattern columns in dataframe : [image_path,mask,original_label,encoder_label]) transform and torch.dataLoad sample use in In[3] from 2create-unet-classifier.ipynb
+2.__model__.py --> load pretrain unet segment and freeze parameter then connect fully-layers 
+3.train.py --> fit (optimize weight fully layer only) & save model (func. from __tool__.py) return model , loss_train , loss_val , loss_acc 
+4.__out__.py --> this object is used for predict and output UnetClassifier model sample from In[2],In[13] example-output-model.ipynb
+5.__tool__.py --> this object is used to hold all the function needed for this project.such as polygons (for draw mask unet output) , save model , trainloop , validateloop and transform resize images
+
+
 
 
 
