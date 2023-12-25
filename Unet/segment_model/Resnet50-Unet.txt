@@ -1,2 +1,2 @@
 # link google drive Unet model (resnet50)
-https://drive.google.com/file/d/1ZnEFF-u6K2rFTH2BT0uV1oQiGbL8MsbG/view?usp=sharing
+https://drive.google.com/file/d/1QR3lhkEZjX4b45CZSUOG2sngz0681Q1p/view?usp=sharing
