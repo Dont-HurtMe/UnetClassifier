@@ -34,8 +34,9 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 | malignant  | 7 | 221  | 14  |
 | normal  | 7 | 26 | 209  |
 
->> detail training & evaluate in create-unet-classifier.ipnyb
->> output of UnetClassifier in example-output-model.ipynb
+* detail training & evaluate in create-unet-classifier.ipnyb
+* output of UnetClassifier in example-output-model.ipynb
+
 
 
 
