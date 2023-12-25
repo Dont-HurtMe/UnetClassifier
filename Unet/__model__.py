@@ -8,7 +8,7 @@ class UnetClassifier(nn.Module):
         super(UnetClassifier, self).__init__()
 
         # Fully layer
-        self.mask_model = torch.load('../example/Unet/unet.pth')
+        self.mask_model = torch.load('../example/Unet/Unet-new.pth')
         
         # Freeze the parameters of mask_model
         for param in self.mask_model.parameters():
