@@ -3,10 +3,18 @@
 
 concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} -> fully-connected layers{in=2^16,out=3} -> softmax
 
+
+
+<img width="703" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/dc480912-1bed-4667-9269-defd121ae7f0">
+
+
+
+
 **log validate accuracy**
 
 
-<img width="497" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/9a889e62-0d52-4dca-a500-6768e814ee23">
+<img width="504" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/c7a4aabb-041d-4baa-9ed1-11a254fb85ae">
+
 
 
 
