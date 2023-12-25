@@ -11,19 +11,19 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 
 
 **evaluate (test-set)**
-* entropyloss:__0.7203  
-* accuracy:_____0.8815  
-* f1-score:_____0.8812 
-* precision:____0.8828 
-* recall:________0.8815 
-* auc:__________0.9120 
+* entropyloss: _______0.7264 
+* accuracy: __________0.9242 
+* f1-score: __________0.9236
+* precision: _________0.9245 
+* recall: _____________0.9242
+* auc: _______________0.9509
 
 **confusion matrix**
 | label name| benign | malignant | normal |
 | --- | --- | --- | --- |
-| benign  | 237  | 3 | 2 |
-| malignant  | 4 | 211  | 27  |
-| normal  | 3 | 47  | 192  |
+| benign  | 241  | 1 | 0 |
+| malignant  | 7 | 221  | 14  |
+| normal  | 7 | 26 | 209  |
 
 **detail training & evaluate in create-unet-classifier.ipnyb
 
