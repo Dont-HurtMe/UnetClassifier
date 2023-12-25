@@ -1,0 +1,2 @@
+# save model UnetClassifier from 2create-unet-classifier.ipnyd In[4]
+https://drive.google.com/file/d/1ZnEFF-u6K2rFTH2BT0uV1oQiGbL8MsbG/view?usp=sharing
