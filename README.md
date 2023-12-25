@@ -37,6 +37,11 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 * detail training & evaluate in create-unet-classifier.ipnyb
 * output of UnetClassifier in example-output-model.ipynb
 
+**OOB work flow**
+1.DataLoad.py --> Generate data from dataframe (pattern columns in dataframe : [image_path,mask,original_label,encoder_label]) transform and torch.dataLoad sample use in In[3] from 2create-unet-classifier.ipynb
+2.train.py --> fit & save model (func. from __tool__.py) return model , loss_train , loss_val , loss_acc 
+3.
+
 
 
 
