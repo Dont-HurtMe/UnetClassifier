@@ -5,7 +5,8 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 
 
 
-<img width="703" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/dc480912-1bed-4667-9269-defd121ae7f0">
+<img width="960" alt="image" src="https://github.com/Dont-HurtMe/UnetClassifier/assets/154254885/b711ed1a-0d66-41e9-88d8-b842b1f1e6e4">
+
 
 
 
