@@ -41,7 +41,7 @@ concept Layer : encoder{Resnet50} -> decoder -> **mask** -> flatten{**mask**} ->
 
 
 
-**Detail of OOB**
+**Detail of OOP**
 ________________________________________
 
 1. DataLoad.py : generate data from dataframe (pattern columns in dataframe : [image_path,mask,original_label,encoder_label]) transform and torch.dataLoad sample use in In[3] from 2create-unet-classifier.ipynb
